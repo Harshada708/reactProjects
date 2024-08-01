@@ -1,8 +1,16 @@
+
+import Chai from "./chai"
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1>react with vite</h1>
+    <>
+    <chai/>
+    <h1>Chai aur react</h1>
+    <p>test para</p>
+    </>
   )
 }
 
